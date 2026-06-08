@@ -1,0 +1,16 @@
+{
+  "name": "Shree Laxmi Traders",
+  "short_name": "Laxmi Traders",
+  "description": "Your trusted partner for building materials in Turkpatti, Kushinagar.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#F59E0B",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
