@@ -45,7 +45,7 @@ function Card3D({ category }: { category: typeof CATEGORIES[0] }) {
   const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ["17.5deg", "-17.5deg"])
   const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ["-17.5deg", "17.5deg"])
 
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+  const handleMouseMove = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     const rect = e.currentTarget.getBoundingClientRect()
     const width = rect.width
     const height = rect.height
